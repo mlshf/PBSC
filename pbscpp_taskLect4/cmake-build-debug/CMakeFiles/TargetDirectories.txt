@@ -1,0 +1,3 @@
+C:/Users/fu3uk/CLionProjects/pbscpp_task3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fu3uk/CLionProjects/pbscpp_task3/cmake-build-debug/CMakeFiles/pbscpp_task3.dir
+C:/Users/fu3uk/CLionProjects/pbscpp_task3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
