@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/fu3uk/CLionProjects/pbscpp_problem1/main.cpp
+tree.h
+/mnt/c/Users/fu3uk/CLionProjects/pbscpp_problem1/tree.h
+cassert
+-
+
+/mnt/c/Users/fu3uk/CLionProjects/pbscpp_problem1/tree.h
+memory
+-
+

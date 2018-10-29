@@ -1,0 +1,3 @@
+/mnt/c/Users/fu3uk/CLionProjects/pbscpp_problem1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/fu3uk/CLionProjects/pbscpp_problem1/cmake-build-debug/CMakeFiles/pbscpp_problem1.dir
+/mnt/c/Users/fu3uk/CLionProjects/pbscpp_problem1/cmake-build-debug/CMakeFiles/edit_cache.dir
