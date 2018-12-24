@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part1/main.cpp
+iostream
+-
+thread
+-
+mutex
+-
+queue
+-
+atomic
+-
+

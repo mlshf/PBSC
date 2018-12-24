@@ -32,11 +32,15 @@
 //продьюсер ставил бы флаг done сразу после записи последнего элемента, а консьюмер читал очередь поэлементно
 //и не мог бы читать тогда, когда done == true.
 
+//В целом, в зависимости от того, что ожидается от программы, код можно было
+//модифицировать по-разному. Мной предложено лишь два решения. Если ни одно из них Вас не удовлетворит, прошу 
+//пояснить, что ожидалось в результате, чтобы я мог корректно модифицировать программу.
+
 int main() {
 	std::atomic<size_t> count = 0;
 	std::atomic<bool> done = false;
 	std::queue<int> items;
-	std::mutex mutex, doneMutex;	
+	std::mutex mutex;	
 	std::thread producer([&]() {
 		for (int i = 0; i < 10000; ++i) {
 			// ... some code may be here ...
@@ -46,7 +50,6 @@ int main() {
 			//mutex released
 		}
 		done = true;
-		std::cout << count << " " << items.size() << std::endl;
 	});
 
 	std::thread consumer([&]() {

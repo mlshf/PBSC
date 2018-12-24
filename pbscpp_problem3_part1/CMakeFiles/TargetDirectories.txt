@@ -1,0 +1,4 @@
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part1/CMakeFiles/rebuild_cache.dir
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part1/CMakeFiles/pbscpp_problem3_part1.dir
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part1/CMakeFiles/edit_cache.dir
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part1/CMakeFiles/pbscpp_problem3_part1_alt.dir
