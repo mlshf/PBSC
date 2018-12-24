@@ -1,4 +1,4 @@
 #pragma once
 
-#include "ProductTest.h"
-#include "InteractionTest.h"
+#include "ClassTest.h"
+#include "ThreadTest.h"
