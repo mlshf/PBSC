@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/gmock_main.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/gmock/gmock.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/gtest/gtest.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

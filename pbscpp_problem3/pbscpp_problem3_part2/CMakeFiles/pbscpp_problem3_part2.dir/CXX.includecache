@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/main.cpp
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/main.cpp
 gtest/gtest.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/gtest/gtest.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/gtest/gtest.h
 tests/tests.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/tests.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/tests.h
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/src/IProduct.cpp
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/src/IProduct.cpp
 IProduct.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/src/IProduct.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/src/IProduct.h
 IShop.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/src/IShop.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/src/IShop.h
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/src/IShop.cpp
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/src/IShop.cpp
 IShop.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/src/IShop.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/src/IShop.h
 IProduct.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/src/IProduct.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/src/IProduct.h
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/ClassTest.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/ClassTest.h
 IProduct.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/IProduct.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/IProduct.h
 IShop.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/IShop.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/IShop.h
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/ThreadTest.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/ThreadTest.h
 thread
 -
 chrono
@@ -38,15 +38,15 @@ chrono
 future
 -
 IShop.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/IShop.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/IShop.h
 ConcreteProducts.h
 -
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/tests.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/tests.h
 ClassTest.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/ClassTest.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/ClassTest.h
 ThreadTest.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/ThreadTest.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/tests/ThreadTest.h
 
 googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

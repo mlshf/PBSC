@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googletest/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googletest" 
+CXX_INCLUDES = -I"/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googletest/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googletest" 
 

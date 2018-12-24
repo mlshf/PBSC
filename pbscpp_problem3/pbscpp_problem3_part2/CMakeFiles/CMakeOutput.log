@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_edb0c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_edb0c.dir/build.make CMakeFiles/cmTC_edb0c.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_edb0c.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_edb0c.dir/testCCompiler.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_edb0c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edb0c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_edb0c.dir/testCCompiler.c.o  -o cmTC_edb0c 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_a910f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a910f.dir/build.make CMakeFiles/cmTC_a910f.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a910f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a910f.dir/testCCompiler.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_a910f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a910f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a910f.dir/testCCompiler.c.o  -o cmTC_a910f 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8f5e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8f5e.dir/build.make CMakeFiles/cmTC_a8f5e.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_a8f5e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8f5e.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o  -o cmTC_a8f5e 
+Run Build Command:"/usr/bin/make" "cmTC_62b0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62b0d.dir/build.make CMakeFiles/cmTC_62b0d.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_62b0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62b0d.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o  -o cmTC_62b0d 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a8f5e' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpYNiGz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a8f5e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a8f5e' '-mtune=generic' '-march=x86-64'
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62b0d' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccV8cWTp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62b0d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62b0d' '-mtune=generic' '-march=x86-64'
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a8f5e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a8f5e.dir/build.make CMakeFiles/cmTC_a8f5e.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»]
-  ignore line: [Building C object CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_a8f5e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8f5e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o  -o cmTC_a8f5e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_62b0d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_62b0d.dir/build.make CMakeFiles/cmTC_62b0d.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»]
+  ignore line: [Building C object CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_62b0d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62b0d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o  -o cmTC_62b0d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a8f5e' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpYNiGz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a8f5e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62b0d' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccV8cWTp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62b0d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccpYNiGz.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccV8cWTp.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a8f5e] ==> ignore
+    arg [cmTC_62b0d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_a8f5e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_62b0d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,17 +158,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c85cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c85cd.dir/build.make CMakeFiles/cmTC_c85cd.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_c85cd.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_c85cd.dir/feature_tests.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_c85cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c85cd.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c85cd.dir/feature_tests.c.o  -o cmTC_c85cd 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_09b17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09b17.dir/build.make CMakeFiles/cmTC_09b17.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_09b17.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_09b17.dir/feature_tests.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_09b17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b17.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_09b17.dir/feature_tests.c.o  -o cmTC_09b17 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,17 +178,17 @@ make[1]: выход из каталога «/home/nikita/Рабочий стол
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3844b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3844b.dir/build.make CMakeFiles/cmTC_3844b.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_3844b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_3844b.dir/feature_tests.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_3844b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3844b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3844b.dir/feature_tests.c.o  -o cmTC_3844b 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_63619/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63619.dir/build.make CMakeFiles/cmTC_63619.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_63619.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_63619.dir/feature_tests.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_63619
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63619.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_63619.dir/feature_tests.c.o  -o cmTC_63619 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,17 +198,17 @@ make[1]: выход из каталога «/home/nikita/Рабочий стол
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9fac2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9fac2.dir/build.make CMakeFiles/cmTC_9fac2.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_9fac2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_9fac2.dir/feature_tests.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_9fac2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fac2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9fac2.dir/feature_tests.c.o  -o cmTC_9fac2 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_94cc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94cc9.dir/build.make CMakeFiles/cmTC_94cc9.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_94cc9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_94cc9.dir/feature_tests.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_94cc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94cc9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_94cc9.dir/feature_tests.c.o  -o cmTC_94cc9 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -216,30 +216,30 @@ make[1]: выход из каталога «/home/nikita/Рабочий стол
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dd5a5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dd5a5.dir/build.make CMakeFiles/cmTC_dd5a5.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_dd5a5.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_dd5a5.dir/testCXXCompiler.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_dd5a5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd5a5.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_dd5a5.dir/testCXXCompiler.cxx.o  -o cmTC_dd5a5 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_0ef6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ef6b.dir/build.make CMakeFiles/cmTC_0ef6b.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_0ef6b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0ef6b.dir/testCXXCompiler.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_0ef6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ef6b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0ef6b.dir/testCXXCompiler.cxx.o  -o cmTC_0ef6b 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e1e0d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e1e0d.dir/build.make CMakeFiles/cmTC_e1e0d.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_e1e0d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e0d.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e1e0d 
+Run Build Command:"/usr/bin/make" "cmTC_aae62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aae62.dir/build.make CMakeFiles/cmTC_aae62.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_aae62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aae62.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aae62 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -251,24 +251,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1e0d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccATzuqk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1e0d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1e0d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_aae62' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDOJXTg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aae62 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_aae62' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e1e0d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e1e0d.dir/build.make CMakeFiles/cmTC_e1e0d.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»]
-  ignore line: [Building CXX object CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_e1e0d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e0d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e1e0d ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_aae62/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_aae62.dir/build.make CMakeFiles/cmTC_aae62.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»]
+  ignore line: [Building CXX object CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_aae62]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aae62.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aae62 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -280,13 +280,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1e0d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccATzuqk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1e0d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_aae62' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDOJXTg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aae62 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccATzuqk.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDOJXTg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e1e0d] ==> ignore
+    arg [cmTC_aae62] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -318,7 +318,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_e1e0d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_aae62.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,17 +344,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37f19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37f19.dir/build.make CMakeFiles/cmTC_37f19.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_37f19.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_37f19.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_37f19
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f19.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_37f19.dir/feature_tests.cxx.o  -o cmTC_37f19 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_7a69d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a69d.dir/build.make CMakeFiles/cmTC_7a69d.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_7a69d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_7a69d.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_7a69d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a69d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7a69d.dir/feature_tests.cxx.o  -o cmTC_7a69d 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -417,17 +417,17 @@ make[1]: выход из каталога «/home/nikita/Рабочий стол
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b8b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b8b0.dir/build.make CMakeFiles/cmTC_4b8b0.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_4b8b0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4b8b0.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_4b8b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8b0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4b8b0.dir/feature_tests.cxx.o  -o cmTC_4b8b0 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_219e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_219e6.dir/build.make CMakeFiles/cmTC_219e6.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_219e6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_219e6.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_219e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_219e6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_219e6.dir/feature_tests.cxx.o  -o cmTC_219e6 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -490,17 +490,17 @@ make[1]: выход из каталога «/home/nikita/Рабочий стол
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51cda/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51cda.dir/build.make CMakeFiles/cmTC_51cda.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_51cda.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_51cda.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_51cda
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51cda.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_51cda.dir/feature_tests.cxx.o  -o cmTC_51cda 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_8c63b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c63b.dir/build.make CMakeFiles/cmTC_8c63b.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_8c63b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8c63b.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_8c63b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c63b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8c63b.dir/feature_tests.cxx.o  -o cmTC_8c63b 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -563,17 +563,17 @@ make[1]: выход из каталога «/home/nikita/Рабочий стол
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_40117/fast"
-/usr/bin/make -f CMakeFiles/cmTC_40117.dir/build.make CMakeFiles/cmTC_40117.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_40117.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_40117.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_40117
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40117.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_40117.dir/feature_tests.cxx.o  -o cmTC_40117 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_125a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_125a1.dir/build.make CMakeFiles/cmTC_125a1.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_125a1.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_125a1.dir/feature_tests.cxx.o -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_125a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_125a1.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_125a1.dir/feature_tests.cxx.o  -o cmTC_125a1 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -634,30 +634,30 @@ make[1]: выход из каталога «/home/nikita/Рабочий стол
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2f9f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2f9f6.dir/build.make CMakeFiles/cmTC_2f9f6.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_2f9f6.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2f9f6.dir/CheckIncludeFile.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_2f9f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f9f6.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2f9f6.dir/CheckIncludeFile.c.o  -o cmTC_2f9f6 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_5beac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5beac.dir/build.make CMakeFiles/cmTC_5beac.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5beac.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5beac.dir/CheckIncludeFile.c.o   -c "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_5beac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5beac.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5beac.dir/CheckIncludeFile.c.o  -o cmTC_5beac 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
+Change Dir: /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa8cc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa8cc.dir/build.make CMakeFiles/cmTC_aa8cc.dir/build
-make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_aa8cc.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aa8cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_aa8cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa8cc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aa8cc.dir/CheckFunctionExists.c.o  -o cmTC_aa8cc -lpthread 
-make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_78853/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78853.dir/build.make CMakeFiles/cmTC_78853.dir/build
+make[1]: вход в каталог «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_78853.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_78853.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78853
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78853.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_78853.dir/CheckFunctionExists.c.o  -o cmTC_78853 -lpthread 
+make[1]: выход из каталога «/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles/CMakeTmp»
 
 

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googletest/src/gtest_main.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googletest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googletest/src/gtest/gtest.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googletest/src/gtest/gtest.h
 
 googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

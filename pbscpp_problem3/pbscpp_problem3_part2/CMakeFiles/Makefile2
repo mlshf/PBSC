@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2"
+CMAKE_SOURCE_DIR = "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2"
+CMAKE_BINARY_DIR = "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2"
 
 #=============================================================================
 # Target rules for target CMakeFiles/pbscpp_problem3_part2.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbs
 CMakeFiles/pbscpp_problem3_part2.dir/all: googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/pbscpp_problem3_part2.dir/build.make CMakeFiles/pbscpp_problem3_part2.dir/depend
 	$(MAKE) -f CMakeFiles/pbscpp_problem3_part2.dir/build.make CMakeFiles/pbscpp_problem3_part2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" --progress-num=9,10,11,12 "Built target pbscpp_problem3_part2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" --progress-num=9,10,11,12 "Built target pbscpp_problem3_part2"
 .PHONY : CMakeFiles/pbscpp_problem3_part2.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/pbscpp_problem3_part2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pbscpp_problem3_part2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pbscpp_problem3_part2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 0
 .PHONY : CMakeFiles/pbscpp_problem3_part2.dir/rule
 
 # Convenience name for target.
@@ -140,11 +140,11 @@ googletest/googlemock/preinstall: googletest/googlemock/gtest/preinstall
 # Target rules for target googletest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
+googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" --progress-num=3,4 "Built target gmock_main"
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 0
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ clean: googletest/googlemock/CMakeFiles/gmock_main.dir/clean
 googletest/googlemock/CMakeFiles/gmock.dir/all: googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" --progress-num=1,2 "Built target gmock"
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Include target in all.
@@ -191,9 +191,9 @@ all: googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 0
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -238,7 +238,7 @@ googletest/googlemock/gtest/preinstall:
 googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" --progress-num=7,8 "Built target gtest_main"
 .PHONY : googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -248,9 +248,9 @@ all: googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 0
 .PHONY : googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -275,7 +275,7 @@ clean: googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 googletest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f googletest/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f googletest/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" --progress-num=5,6 "Built target gtest"
 .PHONY : googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -285,9 +285,9 @@ all: googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 googletest/googlemock/gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/CMakeFiles" 0
 .PHONY : googletest/googlemock/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.

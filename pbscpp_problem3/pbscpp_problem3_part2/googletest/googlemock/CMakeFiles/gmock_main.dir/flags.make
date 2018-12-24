@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googletest/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googletest" 
+CXX_INCLUDES = -I"/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googletest/include" -isystem "/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googletest" 
 

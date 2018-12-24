@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/gmock-all.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/gmock-all.cc
 gmock/gmock.h
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/gmock/gmock.h
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/gmock/gmock.h
 src/gmock-cardinalities.cc
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-cardinalities.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-cardinalities.cc
 src/gmock-internal-utils.cc
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-internal-utils.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-internal-utils.cc
 src/gmock-matchers.cc
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-matchers.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-matchers.cc
 src/gmock-spec-builders.cc
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-spec-builders.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock-spec-builders.cc
 src/gmock.cc
-/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock.cc
+/home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3/pbscpp_problem3_part2/googletest/googlemock/src/src/gmock.cc
 
 googletest/googlemock/include/gmock/gmock-actions.h
 errno.h
