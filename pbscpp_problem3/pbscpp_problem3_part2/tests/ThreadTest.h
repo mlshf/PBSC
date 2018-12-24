@@ -15,6 +15,134 @@ namespace test {
 using ShopBasePtr = std::shared_ptr< ShopBase >;
 using ProductBasePtr = std::shared_ptr< ProductBase >;
 
+TEST(OneShop, SellTest) {	
+	std::promise< ShopBasePtr > p_shop;	
+	std::promise< void > barrier;	
+
+	std::thread t([](std::promise< ShopBasePtr >& p_shop,	
+			 std::promise< void >& barrier) {	
+		auto shop_future = p_shop.get_future();	
+		shop_future.wait();	
+		ShopBasePtr shop = shop_future.get();	
+
+		//create two products, but start sales only for one	
+		ProductBasePtr productA = std::make_shared<A>( 1.7);	
+		ProductBasePtr productB = std::make_shared<B>( 2.3);	
+		productA->Attach(shop);	
+		productB->Attach(shop);	
+		productA->StartSales();	
+
+		barrier.set_value();	
+
+		 std::this_thread::sleep_for(std::chrono::milliseconds(100));	
+	}, std::ref(p_shop), std::ref(barrier));	
+
+	ShopBasePtr shop = std::make_shared< ShopBase >("shop");	
+	p_shop.set_value( shop );	
+
+	auto barrier_future = barrier.get_future();	
+	barrier_future.wait();	
+
+	ASSERT_DOUBLE_EQ(1.7, shop->Sell("A"));	
+	ASSERT_DOUBLE_EQ(-1.0, shop->Sell("B"));	
+
+	t.join();	
+}	
+
+TEST(OneShop, PriceChangeTest) {	
+	std::promise< ShopBasePtr > p_shop;	
+	std::promise< void > barrier;	
+
+	std::thread t([](std::promise< ShopBasePtr >& p_shop,	
+			 std::promise< void >& barrier) {	
+		auto shop_future = p_shop.get_future();	
+		shop_future.wait();	
+		ShopBasePtr shop = shop_future.get();	
+
+		//create two products, check prices, change them, check them again	
+		ProductBasePtr productA = std::make_shared<A>( 1.7);	
+		ProductBasePtr productB = std::make_shared<B>( 2.3);	
+		productA->Attach(shop);	
+		productB->Attach(shop);	
+		productA->StartSales();	
+		productB->StartSales();	
+
+		barrier.set_value();	
+
+		std::this_thread::sleep_for(std::chrono::milliseconds(50));	
+		productA->ChangePrice(6.9);	
+		productB->ChangePrice(9.6);	
+
+		std::this_thread::sleep_for(std::chrono::milliseconds(300));	
+	}, std::ref(p_shop), std::ref(barrier));	
+
+	ShopBasePtr shop = std::make_shared< ShopBase >("shop");	
+	p_shop.set_value(shop);	
+
+	auto barrier_future = barrier.get_future();	
+	barrier_future.wait();	
+
+	ASSERT_DOUBLE_EQ(1.7, shop->Sell("A"));	
+	ASSERT_DOUBLE_EQ(2.3, shop->Sell("B"));	
+
+	std::this_thread::sleep_for(std::chrono::milliseconds(200));	
+	ASSERT_DOUBLE_EQ(6.9, shop->Sell("A"));	
+	ASSERT_DOUBLE_EQ(9.6, shop->Sell("B"));	
+
+	t.join();	
+}	
+
+TEST(OneShop, DetachNSalesTest) {	
+	std::promise< ShopBasePtr > p_shop;	
+	std::promise< void > barrier;	
+
+	std::thread t([](std::promise< ShopBasePtr >& p_shop,	
+		     	 std::promise< void >& barrier) {	
+	 	auto shop_future = p_shop.get_future();	
+		shop_future.wait();	
+		ShopBasePtr shop = shop_future.get();	
+
+		//create two products, check prices	
+		//then detach one shop, then check prices,	
+		//then stop sales on the remaining product, then check prices	
+		ProductBasePtr productA = std::make_shared<A>( 1.7);	
+		ProductBasePtr productB = std::make_shared<B>( 2.3);	
+		productA->Attach(shop);	
+		productB->Attach(shop);	
+		productA->StartSales();	
+		productB->StartSales();	
+
+		barrier.set_value();	
+
+		std::this_thread::sleep_for(std::chrono::milliseconds(50));	
+		productA->Detach(shop);	
+
+		std::this_thread::sleep_for(std::chrono::milliseconds(300));	
+		productB->StopSales();	
+
+		std::this_thread::sleep_for(std::chrono::milliseconds(2000));	
+	}, std::ref(p_shop), std::ref(barrier));	
+
+	ShopBasePtr shop = std::make_shared< ShopBase >("shop");	
+	p_shop.set_value(shop);	
+
+	auto barrier_future = barrier.get_future();	
+	barrier_future.wait();	
+
+	ASSERT_DOUBLE_EQ(1.7, shop->Sell("A"));	
+	ASSERT_DOUBLE_EQ(2.3, shop->Sell("B"));	
+
+	std::this_thread::sleep_for(std::chrono::milliseconds(100));	
+	ASSERT_DOUBLE_EQ(-1.0, shop->Sell("A"));	
+	ASSERT_DOUBLE_EQ(2.3, shop->Sell("B"));	
+
+	std::this_thread::sleep_for(std::chrono::milliseconds(600));	
+	ASSERT_DOUBLE_EQ(-1.0, shop->Sell("A"));	
+	ASSERT_DOUBLE_EQ(-1.0, shop->Sell("B"));	
+
+	t.join();	
+}	
+	
 TEST(ThreeShops, OverallTest) {
     std::promise< ShopBasePtr > p_shop1;
     std::promise< ShopBasePtr > p_shop2;
