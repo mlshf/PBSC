@@ -3,8 +3,8 @@
 
 CMakeFiles/pbscpp_problem3_part2.dir/main.cpp.o
  /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/main.cpp
- /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/InteractionTest.h
- /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/ProductTest.h
+ /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/ClassTest.h
+ /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/ThreadTest.h
  /home/nikita/Рабочий стол/pbscpp_problem3/git/pbscpp_problem3_part2/tests/tests.h
  googletest/googletest/include/gtest/gtest-death-test.h
  googletest/googletest/include/gtest/gtest-matchers.h
