@@ -41,7 +41,7 @@ void ProductBase::Detach( IShopWeakPtr AShopWPtr ) {
 			}
 		);
 		if( available )
-			shop_shdptr->RemoveProduct( shared_from_this()->GetName() );
+			shop_shdptr->RemoveProduct( name );
 	}
 }
 
